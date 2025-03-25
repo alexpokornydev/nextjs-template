@@ -1,0 +1,34 @@
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #8801f3;
+  border-radius: 1rem;
+}
+
+.Toastify{
+  .Toastify__toast-container{
+    .Toastify__toast{
+      background: #0b0b12;
+
+      .Toastify__toast-body{
+        font-family: "Poppins";
+        color: #fff;
+      }
+    }
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+  .text-balance{
+    text-wrap: balance;
+  }
+}
+
+
