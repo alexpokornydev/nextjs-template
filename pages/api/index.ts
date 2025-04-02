@@ -23,10 +23,10 @@ export default async function handler(req:NextApiRequest,res:NextApiResponse){
             const projects:IProject[] = [
                 {
                     _id: 1,
-                    name: "AquaCord.eu",
-                    description: "Jednoduchý web pro minecraft server. S tmavým i světlím řežimem",
-                    date: "2025-06-25",
-                    url: "https://www.aquacord.eu",
+                    name: "AquaCord.eu | Náborová stránka",
+                    description: "Jednoduchý web s domovskou stránkou a náborovými formuláři",
+                    date: "2025-02-16",
+                    url: "https://nabor.aquacord.eu",
                     technologies: ["Next.js","TailwindCSS"],
                     benefits: ["Responzivní jednoduchý design"]
                 },

@@ -59,12 +59,11 @@ export default function AboutPage(){
             <section className="relative border-b-2 border-b-solid border-b-primary bg-background2 h-[35rem] flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0 h-full w-full z-[9] bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"/>
                 
-                <div className="absolute inset-0 flex flex-col justify-center"> {/*style={{background:"radial-gradient(circle at 50% 50%,#58cc0015 0%,#0a0a0d 50%,#0a0909 100%)"}}*/}
-                    {/*<div className="absolute inset-0" style={{background:"radial-gradient(circle at 50% 50%,#58cc0015 0%,#0a0a0d 50%,#0a0909 100%)"}}/>*/}
+                <div className="absolute inset-0 flex flex-col justify-center">
+                    <div className="absolute inset-0"/>
                     <div className="absolute w-[400px] h-[400px] bg-primary/50 blur-[200px] z-0 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"/>
                     <div className="container mx-auto text-center relative z-[9] px-8 mb-9 md:px-12 lg:px-24" data-aos="fade-in" data-aos-duration="2000">
                         
-                        {/*<span className="inline-block px-6 py-2 rounded-full bg-primary/10 text-primary text-sm select-none mb-12 mt-36 transition-colors duration-500 hover:bg-primary/20">Vývoj webových stránek</span>*/}
                         <h1 className="text-4xl md:text-5xl font-bold mb-6 mt-36">
                             <span className="bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text block">Důležité informace</span>
                             <span className="text-white">o mně</span>

@@ -154,7 +154,6 @@ export default function MainPage(){
 
                                 <h2 className="text-2xl text-center font-bold text-white mb-2 duration-300">Tvorba webu na míru</h2>
                                 <div className="shadow-standard rounded-xl bg-primary h-[3px] w-[80px] mb-4 block mx-auto"/>
-                                {/*<p className="text-gray-400 text-md">Od 1 000 Kč</p>*/}
                                 <p className="text-gray-400 text-center text-md mb-4">Vytvářím moderní a responzivní webové stránky, které přesně odpovídají vašim požadavkům..</p>
 
                                 <div className="relative mb-4">
@@ -183,7 +182,7 @@ export default function MainPage(){
                                             <path d="M8 12.5L10.5 15L16 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                                         </svg>
 
-                                        <span className="my-auto mt-[1px] text-white">Zlepšení výkonu webu (UX) a uživatelského rozhraní (UI)</span>
+                                        <span className="my-auto mt-[1px] text-white">Vytvoření bezplatného návrhu.</span>
                                     </li>
                                     <li className="flex gap-2 group">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24} className="text-white" fill={"none"}>
@@ -203,7 +202,7 @@ export default function MainPage(){
                                     </li>
                                 </ul>
 
-                                <button className="bg-background3/30 text-gray-400 py-2 px-6 w-full rounded-xl mt-4 select-none cursor-default">Od 800 Kč</button>
+                                <button className="bg-background3/30 text-gray-400 py-2 px-6 w-full rounded-xl mt-4 select-none cursor-default">Od 1000 Kč</button>
                             </div>
 
                             <div className="bg-background2 shadow-[0_0_20px_#00000043] rounded-xl py-4 px-6 w-[400px] transition ease-in-out duration-200 hover:-translate-y-2" data-aos="fade-up" data-aos-duration="2000">
@@ -218,7 +217,6 @@ export default function MainPage(){
 
                                 <h2 className="text-2xl text-center font-bold text-white mb-2 duration-300">Hostingové služby</h2>
                                 <div className="shadow-standard rounded-xl bg-primary h-[3px] w-[80px] mb-4 block mx-auto"/>
-                                {/*<p className="text-gray-400 text-md">Od 1 000 Kč</p>*/}
                                 <p className="text-gray-400 text-center text-md mb-4">K webům, které vytvářím, nabízím také spolehlivý hosting! Poskytuji cenově výhodné hostingové služby pro všechny své klienty..</p>
 
                                 <div className="relative mb-4">
