@@ -25,8 +25,8 @@ export default function MainPage(){
         <Layout>
             <Head>
                 <title>JavaOff • Minecraft Developer</title>
-                <meta name="description" content="Již druhým rokem dělám uživatelsky atraktivní webové stránky pomocí moderních technologií na míru, a to pro všechny."/>
-                <meta name="keywords" content="Alex Pokorný, Web, Web developer, Development, Dev, Minecraft, Cz/Sk, CZ, SK, Webovky, stránky, webové stránky"/>
+                <meta name="description" content="Nabízím vývoj Minecraft pluginů a systémů přesně podle potřeb klienta. Ať už potřebuješ unikátní herní mechaniky, custom příkazy, systém ekonomiky nebo cokoli jiného – vytvořím ti řešení na klíč. Každý projekt je přizpůsoben tvým požadavkům."/>
+                <meta name="keywords" content="Alex Pokorný, Web, Web developer, Development, Dev, Minecraft, Cz/Sk, CZ, SK, Webovky, stránky, webové stránky, anticheat, javaoff, nullpointer, java, minecraft, mineraft developer"/>
                 <meta http-equiv="X-UA-Compatible" content="IE=7"/>
                 <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -38,9 +38,9 @@ export default function MainPage(){
 
                 <meta property="og:title" content="JavaOff • Minecraft Developer"/>
                 <meta property="og:type" content="website"/>
-                <meta property="og:url" content="https://www.alexpokorny.eu"/>
-                <meta property="og:description" content="Již druhým rokem dělám uživatelsky atraktivní webové stránky pomocí moderních technologií na míru, a to pro všechny."/>
-                <meta name="theme-color" content="#8801f3"/>
+                <meta property="og:url" content="https://javaoff.vercel.app"/>
+                <meta property="og:description" content="Nabízím vývoj Minecraft pluginů a systémů přesně podle potřeb klienta. Ať už potřebuješ unikátní herní mechaniky, custom příkazy, systém ekonomiky nebo cokoli jiného – vytvořím ti řešení na klíč. Každý projekt je přizpůsoben tvým požadavkům."/>
+                <meta name="theme-color" content="#FF0053"/>
             </Head>
 
             <Header/>
