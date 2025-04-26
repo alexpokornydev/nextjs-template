@@ -23,7 +23,7 @@ export default function App({Component,pageProps,router}:AppProps){
       >
         <ProgressBar
           height="4px"
-          color="#8801f3"
+          color="#FF0053"
           options={{ 
             showSpinner: true 
           }}

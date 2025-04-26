@@ -3,7 +3,7 @@ import {NextApiRequest,NextApiResponse} from "next";
 import RateLimit from "express-rate-limit";
 
 const limiter = RateLimit({
-    windowMs: 60 * 60 * 1000, //1h
+    windowMs: 60 * 60 * 1000, 
     max: 10,
     message:{
         error: "Příliš mnoho požadavků - zkuste to znovu za hodinu! 😅",
@@ -34,17 +34,17 @@ export default async function handler(req:NextApiRequest,res:NextApiResponse){
     });
 
     data = {
-        content: "Ahoj, <@999318467310268496>! 👋\nMáš novou zakázku! 😍",
+        content: "Ahoj, <@754385522570428537>! 👋\nMáš novou zakázku! 😍",
         embeds:[{
-            color: 0x58cc00,
+            color: 0xFF0053,
             title: "**__Emailová adresa__**",
             description: `> **${mail}**`
         },{
-            color: 0x58cc00,
+            color: 0xFF0053,
             title: "**__Jméno a příjmení__**",
             description: `> **${name}**`
         },{
-            color: 0x58cc00,
+            color: 0xFF0053,
             title: "**__Požadavek__**",
             description: `> ${request}`
         }]

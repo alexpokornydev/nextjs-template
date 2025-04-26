@@ -27,8 +27,8 @@ export default function Layout({children}:{children:React.ReactNode}){
 
                 <footer className="bg-background2 bg-dotted-spacing-4 bg-dotted-background3 py-4 px-9 overflow-hidden">
                     <div className="flex flex-col justify-between items-center space-y-4 md:flex-row md:space-y-0">
-                        <p className="text-center text-white md:text-end">&copy; 2025 — <span className="text-primary">Alex Pokorný</span>, všechna práva vyhrazena.</p>
-                        <p className="text-center text-white md:text-end">Vytvořeno s láskou 💜 a spoustou ☕</p>
+                        <p className="text-center text-white md:text-end">&copy; 2025 — Vytvořil <span className="text-primary"><a href="https://www.alexpokorny.eu" target="_blank">Alex Pokorný</a></span>, všechna práva vyhrazena.</p>
+                        <p className="text-center text-white md:text-end">Vytvořeno s láskou 🩷</p>
                     </div>
                 </footer>
             </div>
