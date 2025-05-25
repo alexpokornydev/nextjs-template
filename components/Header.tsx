@@ -30,8 +30,8 @@ export default function Header(){
                         </p>
 
                         <div className="flex flex-wrap justify-center gap-6 mb-16">
-                            <button onClick={() => window.open("/contact", "_self")} className="bg-primary/30 text-primary py-3 px-20 rounded-xl select-none transition ease-in-out duration-300 active:scale-[0.96]">Moje práce</button>
-                            <button onClick={() => window.open("/projects", "_self")} className="bg-gray-400/30 text-gray-400 py-3 px-20 rounded-xl select-none transition ease-in-out duration-300 active:scale-[0.96]">Kontakt</button>
+                            <button onClick={() => window.open("https://discord.gg/GBmrgHKun7", "_target")} className="bg-primary/30 text-primary py-3 px-20 rounded-xl select-none transition ease-in-out duration-300 active:scale-[0.96]">Moje práce</button>
+                            <button onClick={() => window.open("#about", "_self")} className="bg-gray-400/30 text-gray-400 py-3 px-20 rounded-xl select-none transition ease-in-out duration-300 active:scale-[0.96]">Kontakt</button>
                         </div>
                     </div>
 
