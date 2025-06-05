@@ -13,8 +13,8 @@ const config:Config = {
         primary: "#FF0053",
         secondary: "#fff",
 
-        background1: "#040408",
-        background2: "#0b0b14",
+        background1: "#010816",
+        background2: "#121928",
         background3: "#16162e",
       },
       fontFamily:{
