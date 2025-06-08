@@ -3,4 +3,4 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-export default nextConfig; //s
+export default nextConfig; 

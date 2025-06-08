@@ -17,7 +17,7 @@ export default function App({Component,pageProps,router}:AppProps){
         exit={{ 
           opacity: 0 
         }}
-        transition={{ 
+        transition={{  
           duration: 0.75
         }}
       >
