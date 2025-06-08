@@ -10,7 +10,13 @@ const config:Config = {
   theme:{
     extend:{
       colors:{
-        primary: "#FF0053",
+  //     primary: "#FF0053",
+//     primary: "#3A86FF",     // blue
+//        primary: "#06D6A0",     // green
+//      primary: "#9B5DE5",     // purple
+//        primary: "#FF69B4",     // pink
+//       primary: "#20C997",     // teal
+     primary: "#6610F2",     // indigo
         secondary: "#fff",
 
         background1: "#010816",

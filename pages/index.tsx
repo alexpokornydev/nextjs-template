@@ -26,25 +26,25 @@ export default function MainPage(){
 
     const timeline = [
         {
-        title: 'CoreSystem',
-        role: 'Vývojář a hlavní architekt',
+        title: '#1',
+        role: 'CEO',
         years: '2024 – 2025',
         description:
-            'Vytvoření vlastního modulárního systému pro Minecraft servery. Obsahuje správu hráčů, ekonomiku, ranky a další jádrové funkce pro plně přizpůsobitelné servery.',
+            'Description about project.',
         },
         {
-        title: 'ZorinAC',
+        title: '#2',
         role: 'Lead Developer',
         years: '2023 – 2025',
         description:
-            'Vývoj a optimalizace vlastního anticheat systému, který detekuje a brání nejrozšířenějším typům cheatování. Neustále vylepšován na základě zpětné vazby od serverových komunit.',
+            'Description about project.',
         },
         {
-        title: 'GuildsPro',
-        role: 'Spolupráce na pluginu pro správu guild',
+        title: '#3',
+        role: 'Owner',
         years: '2022 – 2022',
         description:
-            'Práce na pluginu umožňujícím tvorbu a správu hráčských guild s podporou ekonomiky, územního systému a vlastních odměn.',
+            'Description about project.',
         },
     ]
 
@@ -62,7 +62,7 @@ export default function MainPage(){
     return(
         <Layout>
             <Head>
-                <title>JavaOff | Minecraft Developer</title>
+                <title>Next.js Portfolio Template</title>
                 <meta name="description" content="Nabízím vývoj Minecraft pluginů a systémů přesně podle potřeb klienta. Ať už potřebuješ unikátní herní mechaniky, custom příkazy, systém ekonomiky nebo cokoli jiného – vytvořím ti řešení na klíč. Každý projekt je přizpůsoben tvým požadavkům."/>
                 <meta name="keywords" content="Alex Pokorný, Web, Web developer, Development, Dev, Minecraft, Cz/Sk, CZ, SK, Webovky, stránky, webové stránky, anticheat, javaoff, nullpointer, java, minecraft, mineraft developer"/>
                 <meta http-equiv="X-UA-Compatible" content="IE=7"/>
@@ -92,7 +92,7 @@ export default function MainPage(){
 
                 <div>
                 <p className="text-white/80 mb-6">
-                    Passionate about creating memorable digital experiences, I transform your ideas into intuitive and aesthetic interfaces. My user-centered approach ensures solutions that truly meet your audience’s needs.
+                    Description about you.
                 </p>
 
                 <h3 className="text-white font-semibold mb-3">Skills</h3>

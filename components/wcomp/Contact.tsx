@@ -91,7 +91,7 @@ export default function ContactSection() {
           <div className="bg-[#1e1e2f] p-6 rounded-xl shadow-md">
             <h3 className="text-lg font-semibold mb-3">Informations</h3>
             <ul className="text-sm text-gray-300 space-y-2">
-              <li>📍 Based in Paris, France</li>
+              <li>📍 Based in Prague, Czech</li>
               <li>⏱ I usually respond within 24h</li>
               <li className="text-green-400">✅ Available for new projects</li>
             </ul>
@@ -113,8 +113,8 @@ export default function ContactSection() {
 
           <div className="bg-primary/35 p-4 rounded-xl border border-primary text-white">
             <span className="block font-semibold">📧 Direct email</span>
-            <span className="text-sm text-gray-200">info@javaoff.com</span>
-            <span className="text-sm text-gray-200">support@javaoff.com</span>
+            <span className="text-sm text-gray-200">email@gmail.com</span>
+            <span className="text-sm text-gray-200">support@gmail.com</span>
           </div>
         </div>
       </div>

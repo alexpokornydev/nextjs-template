@@ -55,7 +55,7 @@ export default function Menu() {
               href="/"
               className="bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text [text-shadow:0_0_10px_#FF0053]"
             >
-              <Image src="/logo.png" width={46} height={46} alt="Logo" />
+              <Image src="/logo.pngg" width={46} height={46} alt="Logo" />
             </Link>
           </div>
 
@@ -115,7 +115,7 @@ export default function Menu() {
                   onClick={() => window.open("/contact", "_self")}
                   className="menu-contact-button bg-primary/30 text-primary w-full py-2 px-6 rounded-xl select-none transition duration-300 active:scale-[0.96]"
                 >
-                  Kontakt
+                  Contact
                 </button>
               </li>
             </ul>

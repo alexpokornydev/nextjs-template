@@ -33,9 +33,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-12">
           {/* Info */}
           <div>
-            <h3 className="text-white text-lg font-semibold">JavaOff</h3>
+            <h3 className="text-white text-lg font-semibold">Name</h3>
             <p className="text-sm mt-2 text-zinc-400 leading-relaxed">
-              Minecraft Developer with over 5 years of experience.
+              Short description about you.
+              
             </p>
           </div>
 

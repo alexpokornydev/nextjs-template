@@ -14,20 +14,20 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   try {
     const transporter = nodemailer.createTransport({
-      host: 'smtp.seznam.cz',
+      host: 'smtp host',
       port: 587,
       secure: false,
       auth: {
-        user: 'email@alexpokorny.eu',
-        pass: 'password (vypln)', 
+        user: 'your@email.cz',
+        pass: 'your email password', 
       },
     })
 
     const mailOptions = {
-      from: 'email@alexpokorny.eu', 
+      from: 'your@email.cz', 
       to: 'info@javaoff.com',
-      subject: `Nový kontakt od ${name}`,
-      text: `Jméno: ${name}\nE-mail: ${mail}\n\nZpráva:\n${request}`,
+      subject: `New contact from ${name}`,
+      text: `Name: ${name}\nE-mail: ${mail}\n\nMessage:\n${request}`,
     }
 
     await transporter.sendMail(mailOptions)

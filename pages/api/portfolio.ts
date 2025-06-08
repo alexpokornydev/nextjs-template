@@ -3,8 +3,8 @@ import { NextApiRequest, NextApiResponse } from 'next';
 const projects = [
   {
     id: 1,
-    title: 'Refonte App Santé',
-    description: 'UX research + UI design pour une application de suivi médical',
+    title: 'Mobile Category',
+    description: 'UX research + UI design for a medical monitoring application',
     year: 2024,
     tags: ['UX Research', 'UI Design', 'Mobile'],
     category: 'Mobile',
@@ -12,8 +12,8 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Dashboard Analytics',
-    description: 'Interface de data visualisation pour plateforme B2B',
+    title: 'Web Category',
+    description: 'Data visualization interface for B2B platform',
     year: 2024,
     tags: ['Dashboard', 'Data Viz', 'B2B'],
     category: 'Web',
@@ -21,8 +21,8 @@ const projects = [
   },
   {
     id: 3,
-    title: 'E-commerce Mobile',
-    description: 'Design system et interfaces pour application shopping',
+    title: 'Mobile Category #2',
+    description: 'Design system and interfaces for shopping application',
     year: 2023,
     tags: ['E-commerce', 'Design System', 'Mobile'],
     category: 'Mobile',
