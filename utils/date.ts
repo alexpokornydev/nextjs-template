@@ -6,4 +6,4 @@ export function convertDate(date:string | number){
     hour12: false,
     timeZone: "Europe/Prague"
   });
-}
+}//s
